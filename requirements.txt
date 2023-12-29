@@ -1,4 +1,1 @@
-re
-asyncio
-datetime
-telethon.sync
+Telethon
