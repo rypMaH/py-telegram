@@ -8,7 +8,7 @@ target_group_id = -1001991083116
 
 with open('chats.csv', 'r', encoding='utf-8') as chats_file, \
      open('keywords.csv', 'r', encoding='utf-8') as keywords_file, \
-     open('keywords_minus.csv', 'r', encoding='utf-8') as minus_file:
+     open('key_minus.csv', 'r', encoding='utf-8') as minus_file:
      chat_links = [line.strip() for line in chats_file]
      keywords = [line.strip() for line in keywords_file]
      keywords_minus = [line.strip() for line in minus_file]
